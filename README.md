@@ -1,6 +1,6 @@
 # Sony-Xperia-L1-Optimizing
 
-![Sony Xperia L1](./image/sonyl1.jpg)
+![Sony Xperia L1](./images/sonyl1.jpg)
 
 ## What Is Sony Xperia L1?
 
