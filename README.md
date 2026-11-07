@@ -52,3 +52,56 @@
    • If it says Yes, you can proceed.
    
    • If it says No or is missing, your bootloader cannot be unlocked. (You Will Can **Not** proceed onto Custom ROM or Rooting it)
+
+
+• Get Your Official Unlock Code
+
+1. Get your phone's IMEI number by dialing *#06# and writing it down.
+
+2. Visit the Sony Developer World Bootloader Site.
+
+3. Select Sony Xperia L1 from the list of supported devices.
+
+4. Enter your email and your IMEI number.
+
+	• Note: If the site gives an error about length, remove the very last digit of your IMEI and try again.
+	
+5. Submit the request, and Sony will generate a unique Unlock Key. Write this key down safely.
+
+
+• Prepare the PC & Environment
+
+1. Back up all important files on your phone, as they will be deleted.
+
+2. Download the Android SDK Platform-Tools (ADB & Fastboot) on your computer from the Android Developer Studio.
+
+3. Extract the downloaded folder to an accessible location on your PC (e.g., C:\platform-tools).
+
+
+• Run the Commands
+
+1. Power off your Xperia L1 completely.
+
+2. Press and hold the Volume Up button, and while holding it, connect the phone to your computer using a USB cable. The phone’s LED should turn blue, indicating it is in Fastboot Mode.
+
+3. On your computer, open a Command Prompt (cmd) windows inside your platform-tools folder (Hold Shift + Right-click inside the folder and select "Open command window here", or type cd C:\platform-tools in cmd).
+
+4. Test the connection by typing:
+```bash
+fastboot devices
+```
+
+If a string of numbers appears, your PC successfully detects the device.
+
+5. Execute the final unlock command using the key you received from Sony:
+```bash
+fastboot -i 0x0fce oem unlock 0xYOUR_UNLOCK_KEY
+```
+
+(Replace YOUR_UNLOCK_KEY with the exact code provided by Sony's website).
+6. Once the terminal confirms the process is finished, type:
+```bash
+fastboot reboot
+```
+
+Your Xperia L1 will reboot and perform a factory reset, after which its bootloader will be fully unlocked.
