@@ -1,6 +1,6 @@
 # Sony-Xperia-L1-Optimizing
 
-![Sony Xperia L1](./images/Sony Xperia L1 SIM-Free 16GB Smartphone - Black _ Amazon.co.uk ....jpg)
+![Sony Xperia L1](./image/sonyl1.jpg)
 
 ## What Is Sony Xperia L1?
 
