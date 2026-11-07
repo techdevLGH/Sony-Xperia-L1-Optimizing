@@ -104,7 +104,7 @@ fastboot -i 0x0fce oem unlock 0xYOUR_UNLOCK_KEY
 fastboot reboot
 ```
 
-Your Xperia L1 will reboot and perform a factory reset, after which its bootloader will be fully unlocked.
+Your Xperia L1 will reboot and perform a factory reset, after which its bootloader will be fully unlocked. over there you should do a Quick setup.
 
 • Getting Files
 
@@ -128,3 +128,57 @@ For Sony L1 you'll have to click these:
 ```bash
 Info: if you will go with FULL please be Cautious Device can get hot.
 ```
+TWRP:
+
+before making one mistake lets take our TWRP image to our SDK Platform Tools Folder
+
+after that go to the SDK Platform tools we extracted and added TWRP.img and then typed cmd in it type:
+```bash
+fastboot flash boot v5-twrp-l1.img
+```
+
+After that reboot your phone it should boot to TWRP
+
+Over there press on to Wipe>Advanced Wipe and select only these **System/Cache/ART Cache Dalvik/Data/Internal Storage** if it cannot RW your storage press on to **Format Data** and type **YES** and then get to main menu press on Reboot>Recovery
+
+If the phone says **Cannot boot into Recovery. Image is corrupted Dont worry it shall close itself then press and hold Power it should Boot into TWRP again over there do the first step Wipe>Advanced Wipe
+
+After that it should say System cannot be deleted after Phone says that go back Wipe>Format Data then Type **YES** then go back to main menu Reboot>Recovery if it says Cannot boot into Recovery Image is Corrupt dont worry it shall close itself press and hold Power Button it shall boot into TWRP
+
+Then Press into Install Below for more better flashing:
+
+• Without Magisk only GAPPS
+
+1. Flash LOS14.1.zip
+
+2. Flash GAPPS.zip
+
+3. Wipe ART/Dalvik
+
+4. Press Reboot>System
+
+5. It Can Take Long to boot...
+
+• Without GAPPS only Magisk
+
+1. Flash LOS14.1.zip
+
+2. Flash Magisk.zip
+
+3. Wipe ART/Dalvik
+
+4. Press Reboot>System
+
+5. It Can Take Long to boot...
+
+• All Contained
+
+1. Flash LOS14.1.zip
+
+2. Flash GAPPS.zip
+
+3. Flash Magisk.zip
+
+4. Wipe ART/Dalvik
+
+5. It Can Take Long to boot...
