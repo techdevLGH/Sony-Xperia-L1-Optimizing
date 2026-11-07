@@ -1,5 +1,7 @@
 # Sony-Xperia-L1-Optimizing
 
+![Sony Xperia L1 Lineup](https://dhgate.com)
+
 ## What Is Sony Xperia L1?
 
 * Sony Xperia L1 is an entry-level Android smartphone manufactured by Sony Mobile Communications. It was announced in March 2017 and released in June 2017 as a successor to the Xperia E5.
