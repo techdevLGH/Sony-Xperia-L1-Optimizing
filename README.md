@@ -23,3 +23,31 @@
 • Connectivity: USB Type-C, Wi-Fi, Bluetooth 4.2/5.0, NFC, and a 3.5mm headphone jack
 
 • Build: Polycarbonate plastic shell, available in colors like Black, White, and Pink
+
+## How we can try to **Optimize** it?
+
+• Putting Custom ROM's on it
+
+• Remove the bloatware (Google, GMS, Sony Mobile Bloatware... And More)
+
+## How we will manage to upload Custom ROM on it?
+
+• Before uploading a Custom ROM on it we'll have to Unlock the Bootloader
+
+## How to unlock Bootloader?
+
+• Check Eligibility
+
+**Before starting, you must ensure your specific Xperia L1 variant allows bootloader unlocking (some carrier-locked models restrict it).**
+
+1. On your Xperia L1, open the phone dialer and enter ```bash
+*#*#7378423#*#*
+```
+
+2. In the service menu that appears, navigate to Service info > Configuration > Rooting Status.
+
+3. Look for Bootloader unlock allowed:
+
+   • If it says Yes, you can proceed.
+   
+   • If it says No or is missing, your bootloader cannot be unlocked. (You Will Can **Not** proceed onto Custom ROM or Rooting it)
