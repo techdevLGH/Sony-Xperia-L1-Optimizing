@@ -105,3 +105,26 @@ fastboot reboot
 ```
 
 Your Xperia L1 will reboot and perform a factory reset, after which its bootloader will be fully unlocked.
+
+• Getting Files
+
+ROM: [XDA LOS 14.1](https://xdaforums.com/t/rom-lineageos-14-1-for-sony-xperia-l1-aka-pine.4053193/)
+
+TWRP: [XDA TWRP](https://xdaforums.com/t/recovery-release-working-twrp-for-sony-l1-g3311-single-sim-others-to-be-confirmed.3818260/)
+
+* LineageOS 14.1 on the Community is Your **Safest Bet on Custom ROM** from on **ROM** Link i gaved get Magisk **If GAPPS option malfunctions** Please look at the below link
+
+GAPPS: [OpenGAPPS](https://opengapps.org/)
+
+• How To Use OpenGAPPS website?
+
+For Sony L1 you'll have to click these:
+
+• Platform: ARM64
+
+• Android: 7.1
+
+• Variant: I Prefer Pico or Nano Micro Mini if you want full Google Apps youll have to click FULL.
+```bash
+Info: if you will go with FULL please be Cautious Device can get hot.
+```
