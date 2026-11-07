@@ -184,3 +184,5 @@ Then Press into Install Below for more better flashing:
 4. Wipe ART/Dalvik
 
 5. It Can Take Long to boot...
+
+Please be cautious these are **CONFIRMED** on G3311 Variant
