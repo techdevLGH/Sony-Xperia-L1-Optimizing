@@ -128,32 +128,3 @@ For Sony L1 you'll have to click these:
 ```bash
 Info: if you will go with FULL please be Cautious Device can get hot.
 ```
-
-• Now lets switch to our computer
-
-1. lets come to the Extracted file we did later make sure its not Zip
-
-2. Click on the Address bar like C:\platform-tools and type cmd with lowercase characters
-
-3.  then type:
-```bash
-./fastboot devices
-```
-
-• If you see a Port or any result Your Computer sees the Sony Xperia L1!
-
-• If it doesnt please repeat steps with caution
-
-4. then remember the code we Copied from the Sony Website? Bootloader Unlock code
-```bash
-fastboot -i 0x0fce oem unlock 0xYOUR_UNLOCK_KEY
-```
-
-**(Make sure to change `YOUR_UNLOCK_KEY` to your actual code).**
-
-5. after that succeeds Type last command:
-```bash
-fastboot reboot
-```
-
-your phone will start rebooting after that complete the setup fast.
