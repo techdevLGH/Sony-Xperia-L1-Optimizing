@@ -40,7 +40,8 @@
 
 **Before starting, you must ensure your specific Xperia L1 variant allows bootloader unlocking (some carrier-locked models restrict it).**
 
-1. On your Xperia L1, open the phone dialer and enter ```bash
+1. On your Xperia L1, open the phone dialer and enter 
+```bash
 *#*#7378423#*#*
 ```
 
